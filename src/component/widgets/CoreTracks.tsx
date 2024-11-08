@@ -41,14 +41,8 @@ const CoreTracksData = [
   {/* Boxes */}
 <div className="my-20 flex flex-col gap-x-8 mx-auto md:flex-row gap-y-6 space-x-8">  
       {CoreTracksData.map((item, i) => (       
-//  <div className="border rounded-md flex flex-col  w-4/12 relative px-8 py-16 flex-1 justify-center">
-//        <h4 className="font-bold text-lg ">{item.header}</h4>
-//        <p  className="mt-2 text-slate-600 z-10">{item.descrption}</p>
-//        <div className="absolute text-gray-200 -top-10 right-10 text-[170px] font-bold -z-10">{1+i}</div>
-// </div>
-
 <QuaterBox
-key={item.number}
+ key={item.number}
  headre={item.header}
  descrption={item.descrption}
  number={i + 1}
