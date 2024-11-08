@@ -1,4 +1,3 @@
-import wrapper from "@/component/shared/wrapper"
 import Wrapper from "@/component/shared/wrapper"
 import HeroPoster from "@/assets/image/hero-poster.png"
 import Image from "next/image"
@@ -12,7 +11,7 @@ const hero = () => {
 <div className="flex flex-col md:flex-row items-center ">
 <div className="flex-1 ">
   {/*left side*/}
-  <h4 className="text-[#00616C] font-semibold text-lg mt-4">Presidential Initiative for Artificial Intelligence and Computing (PIAIC)</h4>
+  <h4 className=" text-primary font-semibold text-lg mt-4">Presidential Initiative for Artificial Intelligence and Computing (PIAIC)</h4>
   <h1 className="text-5xl font-semibold leading-normal text-gray-900 sm:text-6xl">Certified Web 3.0 and Metaverse Developer</h1>
   <p className="mt-6 text-xl text-slate-700">
     A One and Quarter Years Panaverse DAO Earn as you Learn Program Getting Ready for the Next Generation of the Internet

@@ -28,7 +28,7 @@ const CoreTracksData = [
       {/* Content */}
 
       <div className="max-w-screen-sm">
-        <h4 className="text-[#00616C] font-semibold text-lg mt-4">Program of Studies</h4>
+        <h4 className=" text-primary font-semibold text-lg mt-4">Program of Studies</h4>
         <h2 className="text-4xl font-bold whitespace-pre-line">{header}</h2>
         <p className="mt-6 text-xl text-slate-700">Every participant of the program will start by completing the following three core courses.</p>
 
@@ -48,9 +48,11 @@ const CoreTracksData = [
 // </div>
 
 <QuaterBox
+key={item.number}
  headre={item.header}
  descrption={item.descrption}
- number={i+1}
+ number={i + 1}
+ 
 
  />
 ))}
